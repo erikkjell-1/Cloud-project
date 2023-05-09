@@ -1,0 +1,29 @@
+.creditcard {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+width: 382px;
+height: 241px; 
+border-radius: 8px;
+justify-items: center;
+align-items: center;
+}
+
+.creditcard-functions{
+display: flex;
+}
+
+.creditcard-remover {
+background-color: black;
+color: white;
+border-radius: 8px;
+}
+
+.creditcard-text {
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 32px;
+letter-spacing: 0.03em;
+}
+

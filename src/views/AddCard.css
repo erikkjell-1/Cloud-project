@@ -1,0 +1,106 @@
+.add-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.new-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-items: center;
+}
+
+.new-heading {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 100%;
+text-align: center;
+color: black;
+}
+
+.form {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+justify-items: center;
+align-content: center;
+}
+
+.form-grid {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+
+}
+
+.form-grid-boxing {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+justify-items: center;
+align-content: center;
+}
+
+.form-heading {
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+display: flex;
+align-items: center;
+}
+
+.form-input {
+width: 382px;
+height: 56px;
+border: 1px solid rgba(0, 0, 0, 0.8);
+border-radius: 8px;
+text-align: center;
+color: #000000;
+}
+
+.form-input-small {
+width: 175px;
+height: 56px;
+border: 1px solid rgba(0, 0, 0, 0.8);
+border-radius: 8px;
+font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+.new-card-button {
+width: 382px;
+height: 72px;
+background: #000000;
+border-radius: 8px;
+color: white;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+.form-input {
+    font-family: 'PT Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+color: #000000;
+}
+
